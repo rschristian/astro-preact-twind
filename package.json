@@ -1,0 +1,28 @@
+{
+  "name": "@rschristian/astro-preact-twind",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client.js": "./src/client.js",
+    "./server.js": "./src/server.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "babel-plugin-tailwind-grouping": "^0.1.3",
+    "preact-render-to-string": "^5.1.21"
+  },
+  "peerDependencies": {
+    "preact": "^10.6.5",
+    "twind": "^1.0.0-next.37"
+  }
+}
